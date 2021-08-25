@@ -56,16 +56,33 @@ def gimme(exercise):
     elif exercise == "4.2.2":
                 hint = "There are many ways of doing this. You could try fancy indexing or maybe read the documentation of `np.chose`."
 # -- https://stackoverflow.com/questions/26325652/fastest-way-to-keep-one-element-over-two-from-long-numpy-arrays
+
+    ### NONSENSE
     elif exercise == "meaning of life":
                     hint = "42"
     elif exercise == "what is actually going to make me happy":
                     hint = "Solving these exersises! Also, try asking the reverse question: https://www.goodreads.com/book/show/2863072-the-situation-is-hopeless-but-not-serious"
     elif exercise == "what to do in Bordeaux":
-                    hint = "Oysters are a local specialty and an excellent seafood restaurant is just around the corner"
+                    hint = "Oysters are a local specialty. Excellent seafood restaurants are just around the corner"
     elif exercise == "how to spell excercize":
                     hint = "exercise"
     elif exercise == "how make the best tahini cookies":
                     hint = "Its pretty much like making Shortbread, so the butter needs to be a little cold. \n 100g Tahini\nA bit of Salt\n75g Butter\n70g Sugar\n100g Flour\n75g ground almonds\nSesame seeds - for the looking-yummy-factor\n Set the oven to ~170°C. Mix butter, salt and sugar. Don't go too easy on the salt - I love the sweet and salty thing :)Then add flour and almonds. Mix mix mix mix. Once it has become a cumbly mass, add the tahini. You might need some water to smoothen the consistency. Roll it into balls, throw the balls into the sesame seeds. Place on the tray and then bake for 10-15min."
+    elif exercise == "how do zucchini grow":
+                        hint = "Every plant produces male and female flowers. Insects need to transport pollen from a male to a female flower to fertilize it."
+    elif exercise == "which country has the most pet cats per capita":
+                        hint = "New Zealand"
+    elif exercise == "is it worth it to automate this":
+                        hint = "https://xkcd.com/1205/"
+    elif exercise == "card game recommendations":
+                        hint = "Play Exploding Kittens!"
+    elif exercise == "how to put a train on a boat":
+                        hint = "Talk to Tiziano about it!"
+    elif exercise == "which is the best beach":
+                        hint = "I heard Arcachon is pretty nice!"
+    elif exercise == "what to do in your spare time":
+                        hint = "Get involved in organzizng ASPP 2022!"
+
     else:
         q = random.choice(trying_to_be_funny)
         hint = f"I don't know anything about this one! Try asking about another exercise or how about some advice on '{q}'?"
