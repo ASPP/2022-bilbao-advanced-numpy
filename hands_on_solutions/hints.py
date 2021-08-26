@@ -7,7 +7,12 @@ def gimme(exercise):
                           "what is actually going to make me happy",
                           "What should I do in Bordeaux",
                           "how to spell excercize",
-                          "how make the best tahini cookies"]
+                          "how make the best tahini cookies", "how do zucchini grow",
+                          "which country has the most pet cats per capita",
+                          "is it worth it to automate this",
+                          "card game recommendations", "how to put a train on a boat",
+                          "which is the best beach",
+                          "what to do in your spare time"]
 
     if exercise == "1.1":
         hint = "Could np.random.uniform be what you are looking for?"
@@ -77,7 +82,7 @@ def gimme(exercise):
     elif exercise == "card game recommendations":
                         hint = "Play Exploding Kittens!"
     elif exercise == "how to put a train on a boat":
-                        hint = "Talk to Tiziano about it!"
+                        hint = "I dont know, but go and talk to Tiziano about it!"
     elif exercise == "which is the best beach":
                         hint = "I heard Arcachon is pretty nice!"
     elif exercise == "what to do in your spare time":
