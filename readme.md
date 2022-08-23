@@ -1,1 +1,1 @@
-# Advanced Numpy for ASPP  Bordeaux 2021
+# Advanced Numpy for ASPP  Bilbao 2022
